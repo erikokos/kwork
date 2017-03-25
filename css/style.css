@@ -227,23 +227,34 @@ header {
 		padding-left: 5%;
 		padding-top: 100px;
 	}
+
+
 		
 		.hover__s:nth-child(1) {
 			background: url(../images/pic01.jpg);
-			background-color: #7AC0D8;
+			background-color: #499FBD;
 			background-blend-mode: overlay;
 			background-size: cover;
 			background-position: 50% 50%;
 		}
+
 		.hover__s:nth-child(4) {
 			background: url(../images/pic04.jpg);
+			background-color: #C79F78;
+			background-blend-mode: overlay;
 			background-size: cover;
 			background-position: 50% 50%;
 		}
+
 		.hover__s:nth-child(5) {
 			background: url(../images/pic05.jpg);
+			background-color: #7D97CE;
+			background-blend-mode: overlay;
 			background-size: cover;
 			background-position: 50% 50%;
+		}
+		.hover__s:hover {
+			background-blend-mode: normal;
 		}
 
 	.hover__l {
@@ -254,18 +265,28 @@ header {
 
 		.hover__l:nth-child(2) {
 			background: url(../images/pic02.jpg);
+			background-color: #7C74B1;
+			background-blend-mode: overlay;
 			background-size: cover;
 			background-position: 50% 50%;
 		}
 		.hover__l:nth-child(3) {
 			background: url(../images/pic03.jpg);
+			background-color: #D28177;
+			background-blend-mode: overlay;
 			background-size: cover;
 			background-position: 50% 50%;
 		}
 		.hover__l:nth-child(6) {
 			background: url(../images/pic06.jpg);
+			background-color: #79AC95;
+			background-blend-mode: overlay;
 			background-size: cover;
 			background-position: 50% 50%;
+		}
+
+		.hover__l:hover {
+			background-blend-mode: normal;
 		}
 
 .section__gstarted {
