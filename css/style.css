@@ -92,16 +92,18 @@ header {
 						}
 						.modal-open:checked ~ .modal-wrap .modal-dialog {
 						    transform: translate(-50%, 0);
-						    top: 20%;
+						    top: 2%;
 						}
 						/* элементы модального окна */
 						.modal-dialog {
-						    background: #fefefe;
+						    background: #5b5a7e;
+						    opacity: 0.9;
 						    border: none;
 						    border-radius: 5px;
 						    position: fixed;
-						    width: 80%;
-						    max-width: 500px;
+						    width: 98%;
+						    height: 96vh;
+						    max-width: 1920px;
 						    left: 50%;
 						    top: -100%;
 						    box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
